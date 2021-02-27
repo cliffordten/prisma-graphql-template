@@ -1,0 +1,21 @@
+type Query {
+  users: String!
+}
+
+type Mutation {
+  createUser(data: CreateUserInput!): CreatUserReturn!
+}
+
+type Subscription {
+  count: Int!
+}
+
+input CreateUserInput {
+  name: String!
+  email: String!
+}
+
+type CreatUserReturn {
+  name: String!
+  email: String!
+}
