@@ -1,2 +1,2 @@
-# questmey-B
-Backend for Questmey Project
+# prisma-graphql-template
+
